@@ -129,7 +129,7 @@ function App() {
 
   const handleRedirect = () => {
     // Redirect back to mobile app via deep link
-    window.location.href = "myapp://password-reset-success";
+    window.location.href = "blsapp://login";
   };
 
   // Inject keyframes into the document head
