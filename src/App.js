@@ -103,7 +103,7 @@ const Button = (props) => (
 );
 
 function App() {
-  const [step, setStep] = useState("form"); // 'form' | 'loading' | 'success'
+  const [step, setStep] = useState("form");
   const [isSubmitting, setIsSubmitting] = useState(false);
   const [password, setPassword] = useState("");
   const [confirmPassword, setConfirmPassword] = useState("");
