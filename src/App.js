@@ -124,7 +124,7 @@ function App() {
     setTimeout(() => {
       setIsSubmitting(false);
       setStep("success");
-    }, 1500); // Increased timeout for better loading visualization
+    }, 1500);
   };
 
   const handleRedirect = () => {
